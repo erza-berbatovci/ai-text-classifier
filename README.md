@@ -40,3 +40,10 @@ python ag_news.py
 ### 4. Make predictions
 python predict.py "Your text here
 
+##  Visualizations
+
+### Class Distribution
+![class_distribution](images/class_distribution.png)
+
+### Confusion Matrix
+![confusion_matrix](images/confusion_matrix.png)

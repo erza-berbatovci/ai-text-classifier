@@ -23,6 +23,20 @@ The task is to classify news articles into four categories:
 
 ## Dataset  
 - Source: [Kaggle – AG News Dataset](https://www.kaggle.com/datasets/amananandrai/ag-news-classification-dataset)  
-- ~127k samples, evenly distributed across 4 categories  
+- ~127k samples, evenly distributed across 4 categories
+---
 
+## How to Run
+# 1. Clone the repository
+git clone [https://github.com/erza-berbatovci/ai-text-classifier.git]
+cd AI_task
+
+# 2. Install dependencies
+pip install -r requirements.txt
+
+# 3. Run the training script
+python ag_news.py
+
+# 4. Make predictions
+python predict.py "Your text here
 

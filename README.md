@@ -27,16 +27,16 @@ The task is to classify news articles into four categories:
 ---
 
 ## How to Run
-# 1. Clone the repository
+### 1. Clone the repository
 git clone [https://github.com/erza-berbatovci/ai-text-classifier.git]
 cd AI_task
 
-# 2. Install dependencies
+### 2. Install dependencies
 pip install -r requirements.txt
 
-# 3. Run the training script
+### 3. Run the training script
 python ag_news.py
 
-# 4. Make predictions
+### 4. Make predictions
 python predict.py "Your text here
 
